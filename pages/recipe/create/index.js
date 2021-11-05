@@ -7,7 +7,7 @@ import ModalBlackout from "../../../components/recipe/create_recipe/food/ModalBl
 // Food(재료)
 import FoodForm from "../../../components/recipe/create_recipe/food/FoodForm";
 // Step(요리순서)
-import StepForm from "../../../components/recipe/create_recipe/step/stepForm";
+import StepForm from "../../../components/recipe/create_recipe/step/StepForm";
 import { useRouter } from "next/dist/client/router";
 
 //  post_id 초기값 확인을 위한 logic(post 개수 확인)
