@@ -18,7 +18,7 @@ import { useRouter } from "next/dist/client/router";
 const initialValues = {};
 
 //  작성폼
-export const index = () => {
+export const Index = () => {
   //  Modal Data, 렌더링 로직
   const [isModalVisible, setIsModalVisible] = useState(false);
   const handleSetIsModalVisible = (value) => {
@@ -148,4 +148,4 @@ export const getServerSideProps = async (ctx) => {
   return { props: { user } };
 };
 
-export default index;
+export default Index;

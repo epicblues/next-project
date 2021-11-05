@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css'
 
 
 // Api에 인증 기능을 활용하는 샘플
-const sample: NextPage<any> = () => {
+const Sample: NextPage<any> = () => {
 
   const paragraphRef = useRef() as MutableRefObject<HTMLParagraphElement>
 
@@ -42,4 +42,4 @@ const sample: NextPage<any> = () => {
 
 
 
-export default sample
+export default Sample

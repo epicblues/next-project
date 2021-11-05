@@ -6,7 +6,7 @@ import { getUserOrRedirect } from "../api/auth";
 import Categories from "../../components/recipe/main/Categories";
 import Search from "../../components/recipe/main/Search";
 
-const index = () => {
+const Index = () => {
   const [showCategories, setShowCategories] = useState(true);
 
   return (
@@ -29,7 +29,7 @@ const index = () => {
           setShowCategories(showCategories ? false : true);
         }}
       />
-      {showCategories ? <Categories></Categories> :  null }
+      {showCategories ? <Categories></Categories> : null}
 
       {/* 찜한 레시피 조회 */}
       <input type="button" value="찜한 레시피" />
@@ -54,4 +54,4 @@ export const getServerSideProps = async (ctx) => {
   const user = await getUserOrRedirect(ctx);
   return { props: { user } };
 };
-export default index;
+export default Index;

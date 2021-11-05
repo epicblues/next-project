@@ -3,7 +3,7 @@ import { checkValid } from '../api/auth';
 
 
 
-const join = () => {
+const Join = () => {
 
   const email = useRef() as MutableRefObject<HTMLInputElement>;
   const password = useRef() as MutableRefObject<HTMLInputElement>;
@@ -58,4 +58,4 @@ const join = () => {
   )
 }
 
-export default join
+export default Join

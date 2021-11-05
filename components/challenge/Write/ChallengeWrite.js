@@ -118,7 +118,7 @@ const ChallengeWrite = () => {
             backgroundColor: "#EAEAEA",
           }}
         >
-          <Header as="h3" inverted inverted color="blue">
+          <Header as="h3" inverted color="blue">
             챌린지 이름
           </Header>
           <input

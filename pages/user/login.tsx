@@ -2,7 +2,7 @@ import React, { LegacyRef, MutableRefObject, useRef } from 'react'
 import Link from 'next/link';
 import { checkValid } from '../api/auth';
 
-const login = () => {
+const Login = () => {
 
   const email = useRef() as MutableRefObject<HTMLInputElement>;
   const password = useRef() as MutableRefObject<HTMLInputElement>;
@@ -57,4 +57,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
